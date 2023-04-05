@@ -1,0 +1,242 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+	vertical-align: top;
+	max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: #9789F9;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+.mb_24 {
+    margin-bottom: 24px;
+}
+
+.main-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+
+.title {
+    font-family: 'Bebas Neue Thin';
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 100;
+
+}
+
+.title::before {
+    content: "$";
+    font-family: 'Bebas Neue Thin';
+    font-size: 24px;
+    line-height: 28px;
+    color: #181818;
+    font-weight: 100;
+
+}
+
+.title::after {
+    content: "/HR";
+    font-family: 'Bebas Neue Thin';
+    font-size: 24px;
+    line-height: 28px;
+    color: #181818;
+    padding-top: 28px;
+    font-weight: 100;
+
+}
+
+.subtitle {
+    font-family: 'Bebas Neue Book';    
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.card {
+    background: #F5F3F9;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 370px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.block-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+}
+
+.button {
+    position: relative;
+    top: 39px;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+
+}
+
+.btn {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #6FCFFB;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    background: #FD8D7B;
+}
+
+.card-bg {
+    background-image: url(../img/bg_image_white.png);
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+.card-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.block_img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.050);
+        -ms-transform: scale(1.050);
+            transform: scale(1.050);
+    -webkit-box-shadow: 0px 0px 10px 2px #FD8D7B;
+            box-shadow: 0px 0px 10px 2px #FD8D7B;
+}
+
+.card-webdisign:hover {
+    -webkit-transform: scale(1.050);
+        -ms-transform: scale(1.050);
+            transform: scale(1.050);
+    -webkit-box-shadow: 0px 0px 10px 2px #FD8D7B;
+            box-shadow: 0px 0px 10px 2px #FD8D7B;
+
+}
+
+.card-webdisign:hover .hiden-text  {
+    padding-top: 30px;
+}
+
+.card-webdisign:hover .btn {
+    background: #FD8D7B;
+}
+
+.card-webdisign:hover .button{
+    position: relative;
+    top: -10px;
+} 
+
+.card:hover .hiden-text {
+    padding-top: 30px;
+}
+
+.card:hover .button  {
+    position: relative;
+    top: -10px;
+}
+
+.hiden-text {
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #A9A9A9;
+}
+
+
+.card:hover .btn  {
+    background-color: #FD8D7B;
+}
